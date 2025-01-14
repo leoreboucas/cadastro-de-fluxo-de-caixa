@@ -1,11 +1,9 @@
-import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function Header() {
   return (
     <View style={styles.container}>
-      <Text>Leonardo Rebouças Almeida</Text>
-      <StatusBar style="auto" />
+      <Text>Header</Text>
     </View>
   );
 }
