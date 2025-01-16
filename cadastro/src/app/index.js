@@ -1,6 +1,7 @@
-import React from 'react';
-import { View, Text, Button, StyleSheet, Touchable, TouchableHighlight } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { View, Text, Button, StyleSheet, FlatList, TextInput} from 'react-native';
 import { useRouter } from 'expo-router';
+import axios from 'axios';
 
 export default function Home() {
     const router = useRouter();
@@ -8,14 +9,14 @@ export default function Home() {
     return (
         <View style={styles.container}>
             <View style={styles.buttonContainer}>
-                <Button color={"#008000"} title="Ir para Registros" onPress={() => router.push('/register')} />
+                <Button color={"#008000"} title="Registrar vendas" onPress={() => router.push('/register')} />
             </View>
             <View style={styles.buttonContainer}>
-                <Button style={styles.btn} color={"#008000"} title="Ir para Historico" onPress={() => router.push('/history')} />
+                <Button style={styles.btn} color={"#008000"} title="Histórico de vendas" onPress={() => router.push('/history')} />
             </View>
 
             <View style={styles.buttonContainer}>
-                <Button color={"#008000"} title="Ir para Resultados" onPress={() => router.push('/results')} />
+                <Button color={"#008000"} title="Resultados" onPress={() => router.push('/results')} />
             </View>
         </View>
     );
@@ -29,8 +30,8 @@ const styles = StyleSheet.create({
         
     },
     buttonContainer: {
-        marginVertical: 10, // Espaço entre os botões
-        padding: 0,        // Padding interno do botão (indireto)
-        width: '60%',       // Largura do botão
+        marginVertical: 10,
+        padding: 0,       
+        width: '60%',      
     },
 });

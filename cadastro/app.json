@@ -8,6 +8,7 @@
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "schema": "cadastro",
+    "scheme": "cadastro",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -29,7 +30,8 @@
     "plugins": [
       [
         "expo-router"
-      ]
+      ],
+      "expo-sqlite"
     ],
     "extra": {
       "router": {
@@ -38,6 +40,12 @@
       "eas": {
         "projectId": "59c2e540-0921-491c-a314-356d0ce6c12b"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/59c2e540-0921-491c-a314-356d0ce6c12b"
     }
   }
 }
