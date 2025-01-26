@@ -56,13 +56,14 @@ caixafinal: Valor do caixa final.
 despesas: Valor das despesas durante o dia.
 datavendas: Data da Movimentação do Caixa.
 
-Contribuições
+### Contribuições
 Se desejar contribuir para o projeto, siga os passos abaixo:
 
-Fork o repositório.
-Crie uma nova branch (git checkout -b minha-nova-feature).
-Faça suas modificações e commit (git commit -am 'Adicionando nova feature').
-Push para a branch (git push origin minha-nova-feature).
-Envie um Pull Request.
-Licença
+- **Fork o repositório.
+- **Crie uma nova branch (git checkout -b minha-nova-feature).
+- **Faça suas modificações e commit (git commit -am 'Adicionando nova feature').
+- **Push para a branch (git push origin minha-nova-feature).
+- **Envie um Pull Request.
+  
+### Licença
 Este projeto está licenciado sob a MIT License. Veja o arquivo LICENSE para mais informações.
