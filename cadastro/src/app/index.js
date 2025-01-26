@@ -1,15 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { View, Text, Button, StyleSheet, FlatList, TextInput} from 'react-native';
+import { View, Button, StyleSheet} from 'react-native';
 import { useRouter } from 'expo-router';
-import axios from 'axios';
+
 
 export default function Home() {
     const router = useRouter();
-
     return (
         <View style={styles.container}>
             <View style={styles.buttonContainer}>
-                <Button color={"#008000"} title="Registrar vendas" onPress={() => router.push('/register')} />
+                <Button color={"#008000"} title="Produtos Registrados" onPress={() => router.push('/products')} />
+            </View>
+            <View style={styles.buttonContainer}>
+                <Button color={"#008000"} title="Registrar Movimentação de Caixa" onPress={() => router.push('/register')} />
             </View>
             <View style={styles.buttonContainer}>
                 <Button style={styles.btn} color={"#008000"} title="Histórico de vendas" onPress={() => router.push('/history')} />
