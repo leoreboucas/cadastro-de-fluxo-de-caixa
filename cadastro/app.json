@@ -1,16 +1,16 @@
 {
   "expo": {
-    "name": "cadastro",
+    "name": "Meu Caixa",
     "slug": "cadastro",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/carrinho.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "schema": "cadastro",
     "scheme": "cadastro",
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/carrinho.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -19,7 +19,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/carrinho.png",
         "backgroundColor": "#ffffff"
       },
       "package": "com.leoreboucas.cadastro"
